@@ -18,5 +18,7 @@ The AWS KMS [documentation](https://docs.aws.amazon.com/kms/latest/developerguid
 
 > "...suppose you create a key policy that gives only one user access to the KMS key. If you then delete that user, the key     becomes unmanageable and you must contact AWS Support to regain access to the KMS key."
 
+Unfortunately, creating a new role with the same name will not resolve the issue.
+
 
 The appropriate solution for managing changes in Terraform deployment roles will vary by scenario. One approach is to associate and maintain a deployment role throughout the account's lifecycle. In situations where the impact is difficult to determine, it may be prudent to preserve the old role, which can then be assumed by the new role if an unmanageable resource is discovered.
