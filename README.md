@@ -1,2 +1,2 @@
-![notebook](/images/notebook.png)
+![notebook](/images/notebook.jpeg)
 
