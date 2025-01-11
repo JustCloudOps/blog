@@ -1,3 +1,6 @@
 title: JustCloudOps Notes
-description: Exploring pragmatic approaches to DevOps, Cloud, and Tech Strategy
+description: Exploring pragmatic approaches to DevOps, cloud, and tech strategy.
 theme: minima
+
+exclude:
+  - README.md
