@@ -14,7 +14,7 @@ The creator of an EKS cluster receives system:masters permissions to configure t
 
 #### KMS Customer Managed Keys
 
-The AWS KMS [documentation](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html): directly calls out a concerning scenario:
+The AWS KMS [documentation](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-default.html) directly calls out a concerning scenario:
 
 > "...suppose you create a key policy that gives only one user access to the KMS key. If you then delete that user, the key     becomes unmanageable and you must contact AWS Support to regain access to the KMS key."
 
